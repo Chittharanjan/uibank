@@ -275,7 +275,7 @@
           }
         }
       },
-      "UiPath.Testing.Activities/0.9.0-alpha.814040": {
+      "UiPath.Testing.Activities/1.0.0-beta.837692": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -935,10 +935,10 @@
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.Testing.Activities/0.9.0-alpha.814040": {
-      "sha512": "DpdIHkGprbZ2sRaONCj9CbUzKqDdJ7wRuQEJWjljtyZPCW09rqyIcZon8t54hXJ59L5oK6l7BS/wR98qHpvsbg==",
+    "UiPath.Testing.Activities/1.0.0-beta.837692": {
+      "sha512": "cP6XvlWO7DHJy3j78KzDckhCQDwcaf+sXBau5k+YN5elbErvPakZ3ZqOGxP9cybkO/69B0t8tlJZWdTcKiXd/A==",
       "type": "package",
-      "path": "uipath.testing.activities/0.9.0-alpha.814040",
+      "path": "uipath.testing.activities/1.0.0-beta.837692",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -969,7 +969,7 @@
         "lib/net461/tr/UiPath.Testing.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Testing.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.Testing.Activities.resources.dll",
-        "uipath.testing.activities.0.9.0-alpha.814040.nupkg.sha512",
+        "uipath.testing.activities.1.0.0-beta.837692.nupkg.sha512",
         "uipath.testing.activities.nuspec"
       ]
     },
@@ -1193,20 +1193,20 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "UiPath.System.Activities >= 20.3.0-beta.798912 <= 20.3.0-beta.798912",
-      "UiPath.Testing.Activities >= 0.9.0-alpha.814040 <= 0.9.0-alpha.814040",
+      "UiPath.Testing.Activities >= 1.0.0-beta.837692 <= 1.0.0-beta.837692",
       "UiPath.UIAutomation.Activities >= 20.2.0-preview <= 20.2.0-preview"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rickc\\.nuget\\packages\\": {}
+    "C:\\Users\\Emerald Koe\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "UiBank Web Smoke Tests",
-      "projectName": "UiBank Web Smoke Tests",
-      "projectPath": "C:\\Users\\rickc\\Documents\\UiPath\\UiBank\\UiBank Products\\UiBank Web\\Tests\\Smoke Tests\\.local",
-      "packagesPath": "C:\\Users\\rickc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rickc\\Documents\\UiPath\\UiBank\\UiBank Products\\UiBank Web\\Tests\\Smoke Tests\\.local"
+      "projectUniqueName": "CI/CD Integration",
+      "projectName": "CI/CD Integration",
+      "projectPath": "C:\\Users\\Emerald Koe\\Desktop\\UiBank-master\\UiBank Products\\UiBank Web\\Tests\\Smoke Tests\\.local",
+      "packagesPath": "C:\\Users\\Emerald Koe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emerald Koe\\Desktop\\UiBank-master\\UiBank Products\\UiBank Web\\Tests\\Smoke Tests\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1219,7 +1219,7 @@
           "UiPath.Testing.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[0.9.0-alpha.814040, 0.9.0-alpha.814040]"
+            "version": "[1.0.0-beta.837692, 1.0.0-beta.837692]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",

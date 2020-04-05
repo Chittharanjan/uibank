@@ -1,10 +1,10 @@
 {
-  "name": "RIC Smoke Tests",
-  "description": "A demo library to show capabilties of our CI/CD integration.",
+  "name": "CI/CD Integration",
+  "description": "A demo project to show our CI/CD integration capabilities.",
   "main": "Create Account.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[20.3.0-beta.798912]",
-    "UiPath.Testing.Activities": "[0.9.0-alpha.814040]",
+    "UiPath.Testing.Activities": "[1.0.0-beta.837692]",
     "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
   },
   "webServices": [],
@@ -31,44 +31,49 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "cfb92788-88f9-40c7-9ee6-720a3db026a3",
+        "editingStatus": "InProgress",
+        "testCaseId": "830a64d2-ae68-40fd-8b2f-34e5ab45ae26",
         "fileName": "Create Account.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "1a7176cf-b42b-40df-b754-3f5edcb02174",
+        "editingStatus": "InProgress",
+        "testCaseId": "a70fcc2f-f3bf-43b6-b6f1-cbabaef634f7",
         "fileName": "Create User.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "f69307b1-02c1-428a-b783-49261271d13d",
+        "editingStatus": "InProgress",
+        "testCaseId": "860e9b77-9ba6-452e-81e9-8688a7ca008a",
         "fileName": "Modify User Profile.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "4b0027c4-7e40-4347-a05a-46f9c401c533",
+        "editingStatus": "InProgress",
+        "testCaseId": "98e43e63-b9a7-4378-a041-594f62cf26c2",
         "fileName": "Perform Transaction.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "06e15ece-49dd-4064-83a2-8d8db3f1c0a0",
+        "editingStatus": "InProgress",
+        "testCaseId": "38b4cdb8-ca0b-40c9-86ec-c1adda36bf7e",
         "fileName": "Transfer Funds.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "a5e0220b-3e4f-441a-8f58-add7f71fee4b",
+        "editingStatus": "InProgress",
+        "testCaseId": "76cd7eaa-4617-4a58-8408-4a54734007ea",
         "fileName": "Reset Password.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "95276480-6983-4a09-b388-7e5094e851aa",
+        "editingStatus": "InProgress",
+        "testCaseId": "89a87527-bfc5-41e2-a39f-ec30a9cfeb8a",
         "fileName": "Create Loan.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "02164474-ab42-44c8-979a-3d32f936c995",
+        "editingStatus": "InProgress",
+        "testCaseId": "fce756c5-fe90-42f1-938f-550ef371d517",
         "fileName": "Register Administrator.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "12cc2ca4-cb54-4a1d-a67e-49d3c61d188f",
+        "fileName": "Delete Account.xaml"
       }
     ]
   },
@@ -76,55 +81,5 @@
     "input": [],
     "output": []
   },
-  "expressionLanguage": "VisualBasic",
-  "entryPoints": [
-    {
-      "filePath": "Create Account.xaml",
-      "uniqueId": "cfb92788-88f9-40c7-9ee6-720a3db026a3",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Create Loan.xaml",
-      "uniqueId": "95276480-6983-4a09-b388-7e5094e851aa",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Create User.xaml",
-      "uniqueId": "1a7176cf-b42b-40df-b754-3f5edcb02174",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Modify User Profile.xaml",
-      "uniqueId": "f69307b1-02c1-428a-b783-49261271d13d",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Perform Transaction.xaml",
-      "uniqueId": "4b0027c4-7e40-4347-a05a-46f9c401c533",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Register Administrator.xaml",
-      "uniqueId": "02164474-ab42-44c8-979a-3d32f936c995",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Reset Password.xaml",
-      "uniqueId": "a5e0220b-3e4f-441a-8f58-add7f71fee4b",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Transfer Funds.xaml",
-      "uniqueId": "06e15ece-49dd-4064-83a2-8d8db3f1c0a0",
-      "input": [],
-      "output": []
-    }
-  ]
+  "expressionLanguage": "VisualBasic"
 }
